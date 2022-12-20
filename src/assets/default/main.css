@@ -1,0 +1,98 @@
+:root {
+  --vultive-muted: rgb(245 245 245);
+  --vultive-dark: rgb(20, 20, 20);
+}
+
+* {
+  scrollbar-width: thin;
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif !important;
+  font-size: 1.125rem !important;
+  line-height: 1.61em !important;
+}
+
+/* Vultive */
+
+.vultive-service {
+  position: relative;
+  border-radius: 0.375rem;
+  transition: 0.5s all;
+}
+
+.vultive-service-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.vultive-service:hover {
+  opacity: 0.6;
+}
+
+.vultive-bg-muted {
+  background: var(--vultive-muted);
+}
+
+.vultive-carousel .carousel-item {
+  min-height: 300px;
+}
+
+.vultive-carousel .carousel-item img {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.vultive-obj-cover {
+  object-fit: cover;
+}
+
+/* Bootstrap */
+
+.nav-link {
+  font-weight: 500;
+}
+
+.navbar-light .nav-link {
+  color: var(--vultive-dark);
+}
+
+a {
+  color: unset;
+  text-decoration: none;
+  transition: 0.5s all !important;
+}
+
+.navbar-nav .nav-item {
+  margin: 2px;
+  border: 2px solid transparent;
+}
+
+.navbar-nav .nav-item:hover {
+  border-bottom: 2px solid var(--bs-red);
+}
+
+a:hover {
+  color: var(--vultive-dark);
+}
+
+/* Footer */
+
+footer ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+footer ul li {
+  margin-bottom: 10px;
+  color: rgb(58, 58, 58);
+}
+
+/* end */
