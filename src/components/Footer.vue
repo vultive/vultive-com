@@ -6,9 +6,11 @@
           <h3>Company</h3>
           <ul class="pt-2">
             <li>
-              <a href="@/assets/pdf/termsandconditions.pdf">Terms and conditions</a>
+              <a href="/static/pdfs/termsandconditions.pdf">Terms and conditions</a>
             </li>
-            <li><a href="@/assets/pdf/privacypolicy.pdf">Privacy policy</a></li>
+            <li>
+              <a href="/static/pdfs/privacypolicy.pdf">Privacy policy</a>
+            </li>
           </ul>
         </div>
         <div class="col-md-4" id="contact">

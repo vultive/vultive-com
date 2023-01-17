@@ -3,7 +3,7 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container">
         <a class="navbar-brand" href="#">
-          <img src="/logos/vultive.png" height="40" class="d-block" alt="Vultive Logo" />
+          <img src="/static/logos/vultive.png" height="40" class="d-block" alt="Vultive Logo" />
         </a>
         <button
           class="navbar-toggler"
