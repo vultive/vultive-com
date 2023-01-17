@@ -13,6 +13,7 @@
                   <img
                     :src="service.background"
                     class="img-fluid rounded-2 vultive-animations-fadeIn"
+                    :alt="service.name"
                   />
                   <div
                     class="d-flex vultive-service-overlay justify-content-center align-items-center text-dark"
