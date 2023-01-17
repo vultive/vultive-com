@@ -3,7 +3,7 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container">
         <a class="navbar-brand" href="#">
-          <img src="/static/logos/vultive.png" height="40" class="d-block" alt="Vultive Logo" />
+          <img src="/static/logos/vultive.png" width="156" height="40" class="d-block" alt="Vultive Logo" loading="lazy" />
         </a>
         <button
           class="navbar-toggler"
@@ -54,7 +54,7 @@
         <div class="col-md-6">
           <a
             href="https://my.vultive.com/register"
-            class="btn btn-lg btn-outline-light"
+            class="btn btn-lg btn-outline-light mt-2 m-md-0"
             >Join now</a
           >
         </div>

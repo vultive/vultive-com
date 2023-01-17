@@ -8,12 +8,15 @@
         >
           <template v-for="service in services" v-bind:key="service.name">
             <div class="col">
-              <a :href="service.url">
+              <a :href="service.url" :aria-label="service.name">
                 <div class="vultive-service">
                   <img
                     :src="service.background"
+                    width="96"
+                    height="96"
                     class="img-fluid rounded-2 vultive-animations-fadeIn"
                     :alt="service.name"
+                    loading="lazy"
                   />
                   <div
                     class="d-flex vultive-service-overlay justify-content-center align-items-center text-dark"
