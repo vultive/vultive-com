@@ -66,7 +66,7 @@ export default {
     return {
       services: [
         {
-          name: "",
+          name: "Vultive LSS",
           background: require("@/assets/lss.favicon.jpg"),
           url: "https://lss.vultive.com",
         },
