@@ -1,21 +1,21 @@
 <template>
-  <appHeader />
+  <TheHeader />
   <main>
-    <appMain />
+    <Main />
   </main>
-  <appFooter />
+  <TheFooter />
 </template>
 
 <script>
-import appHeader from "./components/Header";
-import appMain from "./views/Main";
-import appFooter from "./components/Footer";
+import Main from "./views/Main";
+import TheHeader from "./components/TheHeader";
+import TheFooter from "./components/TheFooter";
 export default {
   name: "App",
   components: {
-    appHeader,
-    appMain,
-    appFooter,
+    Main,
+    TheHeader,
+    TheFooter,
   },
 };
 </script>

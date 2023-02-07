@@ -16,8 +16,7 @@
                   class="img-fluid rounded vultive-service vultive-animations-fadeIn"
                   :alt="service.name"
                   loading="lazy"
-                /></a
-              >
+              /></a>
             </div>
           </template>
         </div>
@@ -25,7 +24,7 @@
     </div>
   </section>
   <section id="lss">
-    <hero
+    <Hero
       :image="require('@/assets/lss.jpg')"
       title="Live Streaming Service"
       text="our Live Streaming Service is a quick way to share your passion with
@@ -35,7 +34,7 @@
     />
   </section>
   <section id="llp">
-    <hero
+    <Hero
       :image="require('@/assets/wip.jpg')"
       title="Language Learning Platform"
       text="our Language Learning Platform is the perfect tool for students,
@@ -49,16 +48,16 @@
 </template>
 
 <script>
-import hero from "../components/Hero";
+import Hero from "../components/Hero";
 export default {
   name: "Views - Main",
   components: {
-    hero,
+    Hero,
   },
   data() {
     return {
       services: [
-      {
+        {
           name: "Vultive LSS",
           background: require("@/assets/lss.favicon.jpg"),
           url: "https://lss.vultive.com",

@@ -3,7 +3,14 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container">
         <a class="navbar-brand" href="#">
-          <img src="/static/logos/vultive.png" width="156" height="40" class="d-block" alt="Vultive Logo" loading="lazy" />
+          <img
+            src="/static/logos/vultive.png"
+            width="156"
+            height="40"
+            class="d-block"
+            alt="Vultive Logo"
+            loading="lazy"
+          />
         </a>
         <button
           class="navbar-toggler"
@@ -65,6 +72,6 @@
 
 <script>
 export default {
-  name: "Components - Header",
+  name: "Components - TheHeader",
 };
 </script>

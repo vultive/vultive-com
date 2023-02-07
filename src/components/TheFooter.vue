@@ -6,7 +6,9 @@
           <h3>Company</h3>
           <ul class="pt-2">
             <li>
-              <a href="/static/pdfs/termsandconditions.pdf">Terms and conditions</a>
+              <a href="/static/pdfs/termsandconditions.pdf"
+                >Terms and conditions</a
+              >
             </li>
             <li>
               <a href="/static/pdfs/privacypolicy.pdf">Privacy policy</a>
@@ -41,6 +43,6 @@
 
 <script>
 export default {
-  name: "Components - Footer",
+  name: "Components - TheFooter",
 };
 </script>
