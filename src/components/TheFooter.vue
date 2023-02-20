@@ -36,7 +36,9 @@
           >
         </div>
       </div>
-      <div class="py-3 fs-6">© 2022 Vultive Team. All Rights Reserved.</div>
+      <div class="py-3 fs-6">
+        © {{ new Date().getFullYear() }} Vultive Team. All Rights Reserved.
+      </div>
     </div>
   </footer>
 </template>
